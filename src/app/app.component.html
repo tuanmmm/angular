@@ -1,7 +1,9 @@
 <app-header></app-header>
 <router-outlet></router-outlet>
+<app-products [data]="productList"></app-products>
+<app-add-product (onAdd)="onHandleAdd($event)"></app-add-product>
 
-<p>string : {{ productName }}</p>
+<!-- <p>string : {{ productName }}</p>
 <p>{{ productPrice}}</p>
 <p>{{productStatus}}</p>
 <p>Info: {{ productInfo.name }} - {{ productInfo.price }} - {{ productInfo.status }} </p>
@@ -50,4 +52,4 @@
 </table>
 </div>
 
-<hr />
+<hr /> -->

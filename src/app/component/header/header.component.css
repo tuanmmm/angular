@@ -1,0 +1,77 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+header .topbar {
+    background: #363636;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+header .topbar .contact-header span {
+    margin-right: 30px;
+}
+header .topbar span, header .topbar a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+}
+header .topbar .account-header {
+    color: #ccc;
+    text-align: right;
+}
+header .topbar .account-header a {
+    margin-left: 30px;
+}
+header .topbar span, header .topbar a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+}
+
+/*lo go*/
+header .midder-header {
+    height: 100px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+}
+header .midder-header .logo {
+    display: block;
+    text-align: center;
+}
+a {
+    color: #231f20;
+    text-decoration: none;
+    background-color: transparent;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+
