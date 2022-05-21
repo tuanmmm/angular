@@ -8,6 +8,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { ProductComponent } from './pages/product/product.component';
 import { ProductsComponent } from './component/products/products.component';
 import { AddProductComponent } from './component/add-product/add-product.component';
+import { ProductDeltailComponent } from './component/product-deltail/product-deltail.component';
 
 
 
@@ -18,6 +19,7 @@ import { AddProductComponent } from './component/add-product/add-product.compone
     ProductComponent,
     ProductsComponent,
     AddProductComponent,
+    ProductDeltailComponent,
 
     
   ],
