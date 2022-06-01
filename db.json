@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "SP1",
+      "price": 10,
+      "status": true
+    },
+    {
+      "name": "trà đào",
+      "price": 5,
+      "status": true,
+      "id": 5
+    },
+    {
+      "name": "Trà sữa socola",
+      "price": 5,
+      "status": true,
+      "id": 6
+    },
+    {
+      "name": "Trà sữa socola",
+      "price": 5,
+      "status": true,
+      "id": 7
+    },
+    {
+      "name": "mát tra",
+      "price": 5,
+      "status": true,
+      "id": 8
+    },
+    {
+      "name": "mát tra",
+      "price": 5,
+      "status": true,
+      "id": 9
+    },
+    {
+      "name": "mát tra",
+      "price": 5,
+      "status": true,
+      "id": 10
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import { ProductComponent } from './pages/product/product.component';
 import { ProductsComponent } from './component/products/products.component';
 import { AddProductComponent } from './component/add-product/add-product.component';
 import { ProductDeltailComponent } from './component/product-deltail/product-deltail.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 
@@ -26,7 +27,8 @@ import { ProductDeltailComponent } from './component/product-deltail/product-del
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { IProduct } from 'src/app/moder/product';
+import {ProductService} from 'src/app/services/product.service';
 import mockData from '../../../data'
 @Component({
   selector: 'app-product-deltail',
@@ -9,10 +10,14 @@ import mockData from '../../../data'
 })
 export class ProductDeltailComponent implements OnInit {
   ProductDetail! : IProduct
-  constructor(private router : ActivatedRoute) { 
+  constructor(
+    private router : ActivatedRoute,
+    private productService : ProductService
+    ) { 
     const id = this.router.snapshot.paramMap.get('id')!;
-    this.ProductDetail = mockData.find(item => item.id == +id)!;
-
+    this.productService.getProduct(+id).subscribe((data)=>{
+      this.ProductDetail = data
+    })
 
   }
 
