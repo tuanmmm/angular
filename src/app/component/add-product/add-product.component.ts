@@ -21,7 +21,7 @@ export class AddProductComponent implements OnInit {
   onSubmit() {
     console.log(this.product);
     this.productService.addProduct(this.product).subscribe(data => {
-
+               
     })
     //  this.onAdd.emit(this.product)
 

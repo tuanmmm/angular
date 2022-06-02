@@ -5,7 +5,13 @@
             <td>{{product .name }}</td>
             <td>{{product .price }}</td>
             <td>
-                <button class="btn btn-info" >an</button>
+                <button class="btn btn-info"  >update</button>
+            </td>
+            <td>
+                <button (click)="onRemove(product.id!)" class="btn btn-info" >xoa</button>
+            </td>
+            <td>
+                <button class="btn btn-info" routerLink="/product/{{product.id}}">details</button>
             </td>
         </tr>
     </tbody>

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { IProduct } from 'src/app/moder/product';
 import {ProductService} from 'src/app/services/product.service';
-import mockData from '../../../data'
+
 @Component({
   selector: 'app-product-deltail',
   templateUrl: './product-deltail.component.html',

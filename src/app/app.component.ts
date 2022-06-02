@@ -11,8 +11,7 @@ export class AppComponent {
   title = 'my-app';
   productList : IProduct[] = mockData
   onHandleAdd(product:any){
-    this.productList.push(product)
-     
+    this.productList.push(product)  
   }
 
 
