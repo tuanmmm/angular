@@ -4,13 +4,19 @@
       "name": "sữa dừa",
       "price": 5,
       "status": true,
-      "id": 1
+      "id": 5
     },
     {
-      "name": "Trà sữa socola",
+      "name": "Nguyễn Thế Tuấn",
       "price": 5,
       "status": true,
-      "id": 2
+      "id": 6
+    },
+    {
+      "name": "sữa dừa",
+      "price": 5,
+      "status": true,
+      "id": 7
     }
   ]
 }
