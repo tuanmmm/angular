@@ -11,7 +11,8 @@ import { AddProductComponent } from './component/add-product/add-product.compone
 import { ProductDeltailComponent } from './component/product-deltail/product-deltail.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { UpdateComponent } from './component/update/update.component';
-import { EditProductComponent } from './component/edit-product/edit-product.component';
+
+import { WebsiteLayoutComponent } from './layouts/website-layout/website-layout.component';
 
 
 
@@ -24,7 +25,7 @@ import { EditProductComponent } from './component/edit-product/edit-product.comp
     AddProductComponent,
     ProductDeltailComponent,
     UpdateComponent,
-    EditProductComponent,
+    WebsiteLayoutComponent,
 
     
   ],

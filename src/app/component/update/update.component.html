@@ -1,1 +1,11 @@
-<p>update works!</p>
+<form action="" (ngSubmit)="onUpdate()">
+    <div class="mb-3">
+      <label for="formGroupExampleInput2" class="form-label">name</label>
+      <input type="text" placeholder="name" [(ngModel)]="product.name" name="name">
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">price</label>
+      <input type="number" placeholder="price" [(ngModel)]="product.price" name="price">
+    </div>
+    <button>edit</button>
+  </form>

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UpdateComponent } from './update.component';
+import { WebsiteLayoutComponent } from './website-layout.component';
 
-describe('UpdateComponent', () => {
-  let component: UpdateComponent;
-  let fixture: ComponentFixture<UpdateComponent>;
+describe('WebsiteLayoutComponent', () => {
+  let component: WebsiteLayoutComponent;
+  let fixture: ComponentFixture<WebsiteLayoutComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UpdateComponent ]
+      declarations: [ WebsiteLayoutComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UpdateComponent);
+    fixture = TestBed.createComponent(WebsiteLayoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

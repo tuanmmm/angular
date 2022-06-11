@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "name": "sữa dừa",
+      "name": "tuanntph15348fpt",
       "price": 5,
       "status": true,
       "id": 5
@@ -17,6 +17,18 @@
       "price": 5,
       "status": true,
       "id": 7
+    },
+    {
+      "name": "Trà sữa socola",
+      "price": 6,
+      "status": true,
+      "id": 8
+    },
+    {
+      "name": " ÁO SƠ MI IN HỌA TIẾT LỚN ASM081 MÀU TRẮNG",
+      "price": 2,
+      "status": true,
+      "id": 9
     }
   ]
 }

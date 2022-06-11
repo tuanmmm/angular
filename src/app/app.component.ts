@@ -9,10 +9,10 @@ import { IProduct } from './moder/product';
 })
 export class AppComponent {
   title = 'my-app';
-  productList : IProduct[] = mockData
-  onHandleAdd(product:any){
-    this.productList.push(product)  
-  }
+  // productList : IProduct[] = mockData
+  // // onHandleAdd(product:any){
+  // //   this.productList.push(product)  
+  // // }
 
 
 
